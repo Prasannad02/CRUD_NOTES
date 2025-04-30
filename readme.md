@@ -27,17 +27,17 @@ A simple Note-Taking REST API built using **FastAPI**, storing notes in-memory u
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ## Running the App
 
 ```bash
 uvicorn main:app --reload
 ```
-
+---
 ## API Documentation
 
  http://127.0.0.1:8000/docs
-
+---
 ## Postman Collection
 
 You can test the API using the included Postman collection file: [Click Here](06_note_api/CRUD_NOTES.postman_collection.json)
@@ -61,12 +61,13 @@ You can test the API using the included Postman collection file: [Click Here](06
   "Message": "Note Added Successfully",
   "note_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
 }
+---
 ```
 ## SCREENSHOT
 
 Swagger UI /docs route showing all endpoints: ![click Here](docs_screenshot.png)
 
-
+---
 ## KNOWN LIMITATIONS
 
 - Notes are stored in-memory (dictionary), so they are lost when the server restarts.
